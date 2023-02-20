@@ -87,14 +87,15 @@ tr:nth-child(odd){
   background-color: #3e8e41;
 }
 .navbar-brand{
-  background-color: blue;
-  height:85px;
+  background-color: rgb(0, 217, 255);
+  height:90px;
+  width:163px;
 }
 .navbar-nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 30.5%;
   background-color:purple;
 }
 .nav-link a {
@@ -224,5 +225,21 @@ tr:nth-child(odd){
     </div>
   </div>
   <br><br><br><br>
+  <form>
+    <div class="form-group">
+      <label for="exampleInputEmail" class="form-label">Email</label>
+      <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp"/>
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1" class="form-label">Plant</label>
+      <input type="text" class="form-control" id="exampleInputPassword1">Enter your plant
+    </div>
+    <div class="form-check">
+      <label for="exampleInputEmail" class="form-label">Sign up for newsletter? </label>
+      <input type="checkbox" class="form-check-input"/>
+    </div>
+    <button class="btn btn-primary" type="submit">Submit</button>
+  </form>
 </body>
 </html>
