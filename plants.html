@@ -55,53 +55,6 @@ tr:nth-child(odd){
 .table:hover {
   background-color: rgb(247, 0, 255);
 }
-.dropdown-toggle {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-menu {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  
-}
-
-.dropdown-menu a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-menu a:hover {
-  background-color: #4CAF50;
-  color: rgb(255, 255, 255);
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropdown:hover .dropdown-menu {
-  display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
-}
 
 .nav-link a {
   display: block;
@@ -257,11 +210,16 @@ tr:nth-child(odd){
 </div>
 <br><br>
 <div class="dropdown">
-  <button type="button" class="dropdown-toggle">Dropdown</button>
-  <div class="dropdown-menu">
-    <a class="dropdown-item" href="basic.html">Basic Page</a><br>
-    <a class="dropdown-item" href="advanced.html">Advanced Page</a>
-  </div>
+  <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Y</button>
+<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">A</button>
+<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">R</button>
+<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">A</button>
+<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">M</button>
+<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">A</button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="basic.html">Basic html</a></li>
+    <li><a class="dropdown-item" href="advanced.html">Advanced html</a></li>
+  </ul>
 </div>
 <br><br><br><br>
 <form>
