@@ -1,45 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <style>
-  .th{
-    height: 50px;
-    text-align: center;
-    vertical-align: bottom;
-    border: 2px solid rgb(92, 150, 177);
-    border-top: 3px solid rgba(82, 61, 151, 0.626);
-    border-bottom: 3px solid rgba(82, 61, 151, 0.626);
-    border-left: 3px solid rgba(82, 61, 151, 0.626);
-    border-right: 3px solid rgba(82, 61, 151, 0.626);
-}
-.td{
-    height:30px;
-    vertical-align: bottom;
-    border: 2px solid rgb(92, 150, 177);
-    border-top: 3px solid rgba(82, 61, 151, 0.626);
-    border-bottom: 3px solid rgba(82, 61, 151, 0.626);
-    border-left: 3px solid rgba(82, 61, 151, 0.626);
-    border-right: 3px solid rgba(82, 61, 151, 0.626);
-}
-.table{
-    height: 30px;
-    vertical-align: bottom;
-    border: 2px solid rgb(87, 89, 205);
-    border-top: 3px solid rgba(82, 61, 151, 0.626);
-    border-bottom: 3px solid rgba(82, 61, 151, 0.626);
-    border-left: 3px solid rgba(82, 61, 151, 0.626);
-    border-right: 3px solid rgba(82, 61, 151, 0.626);
-}
-tr:nth-child(even) {
-  background-color: #D6EEEE;
-}
-tr:nth-child(odd){
-  background-color: aquamarine;
-}
-.table:hover {
-  background-color: rgb(247, 0, 255);
-}
-</style>
   <title>Basic Page</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -52,75 +13,13 @@ tr:nth-child(odd){
     integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </head>
 <body>
-  
-  <table class="table" style="width:70%">
-    <caption>Letter Plant Mountain Lake Table</caption>
-    <tr class="table">
-      <th class="th">Letter</th>
-      <th class="th">Plant</th>
-      <th class="th">Mountain</th>
-      <th class="th">Lake</th>
-    </tr>
-    <tr class="table">
-      <td class="td">Y</td>
-      <td class="td">Yarrow</td>
-      <td class="td">Yelagiri</td>
-      <td class="td">Yaretzi Lake</td>
-    </tr>
-    <tr class="table">
-      <td class="td">A</td>
-      <td class="td">Akar</td>
-      <td class="td">Acamarachi</td>
-      <td class="td">Adams Lake</td>
-    </tr>
-    <tr class="table">
-      <td class="td">R</td>
-      <td class="td">Rudbeckia</td>
-      <td class="td">Rimo</td>
-      <td class="td">River Tummel</td>
-    </tr>
-    <tr class="table">
-      <td class="td">A</td>
-      <td class="td">Aren</td>
-      <td class="td">Acatenango</td>
-      <td class="td">Alouette Lake</td>
-    </tr>
-    <tr class="table">
-      <td class="td">M</td>
-      <td class="td">Mint</td>
-      <td class="td">Mount McKinley</td>
-      <td class="td">Menindee Lake</td>
-    </tr>
-    <tr class="table">
-      <td class="td">A</td>
-      <td class="td">Agave</td>
-      <td class="td">Abajo peak</td>
-      <td class="td">Alta Lake</td>
-    </tr>
-  </table>
-  <br>
-  <button type="button">Y</button>
-  <button type="button">A</button>
-  <button type="button">R</button>
-  <button type="button">A</button>
-  <button type="button">M</button>
-  <button type="button">A</button>
-  <br><br>
-  <div class="btn-toolbar">
-    <div class="btn-group" role="group" aria-label="First Group">
-      <button type="button" class="btn btn-primary">Yarrow</button>
-      <button type="button" class="btn btn-primary">Agave</button>
-      <button type="button" class="btn btn-primary">Rudbeckia</button>
-    </div>
-    <div class="btn-group" role="group" aria-label="Second Group">
-      <button type="button" class="btn btn-secondary">Akar</button>
-      <button type="button" class="btn btn-secondary">Mint</button>
-    </div>
-    <div class="btn-group" role="group" aria-label="Third Group">
-      <button type="button" class="btn btn-info">Agave</button>
+  <div class="dropdown">
+    <button type="button" class="dropdown-toggle">Dropdown</button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="basic.html">Basic Page</a><br>
+      <a class="dropdown-item" href="advanced.html">Advanced Page</a>
     </div>
   </div>
-  <br><br>
   
 </body>
 </html>
