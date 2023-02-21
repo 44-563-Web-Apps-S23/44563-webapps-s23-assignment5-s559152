@@ -64,6 +64,9 @@ tr:nth-child(odd){
   width:150px;
   text-decoration: none;
 }
+.navbar-brand{
+  background-color: #4CAF50;
+}
 
 .nav-link a.active {
   background-color: #04AA6D;
@@ -91,7 +94,7 @@ tr:nth-child(odd){
 </head>
 <body>
   <nav class="navbar-expand-md navbar-light and bg-light">
-    <a class="navbar-brand" style="height: fit-content; width: fit-content;" href="plants.html">Interesting Plants</a>
+    <h3><a class="navbar-brand" style="height: fit-content; width: fit-content;" href="plants.html">Interesting Plants</a></h3>
     <br>
       <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -239,28 +242,38 @@ tr:nth-child(odd){
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 <br><br>
-<div class="card" style="width: 18rem;">
-  <img src="yarrow.jpg" class="card-img-top" alt="Yarrow">
-  <div class="card-body">
-    <h5 class="card-title">Yarrow</h5>
-    <p class="card-text">Yarrow (Achillea millefolium) is a native North American plant that’s popular with pollinators and practically care-free, making it perfect for borders, ground covers, and open meadows. Here’s how to grow yarrow in your garden!</p>
-    <a href="https://www.thespruce.com/taxonomy-of-yarrow-plants-2132606" class="btn btn-primary">Want To Know More</a>
-  </div>
-</div>
-<div class="card" style="width: 18rem;">
-  <img src="Agave.jpg" class="card-img-top" alt="Agave">
-  <div class="card-body">
-    <h5 class="card-title">Agave</h5>
-    <p class="card-text">Agave is a long-leaved succulent plant that naturally forms a rosette shape and produces a flower spire of attractive cup shaped blooms. The plant is drought tolerant and perennial, making it ideal for the mature arid garden</p>
-    <a href="https://www.gardeningknowhow.com/ornamental/cacti-succulents/agave/growing-agave.htm#:~:text=Agave%20is%20a%20long-leaved%20succulent%20plant%20that%20naturally,making%20it%20ideal%20for%20the%20mature%20arid%20garden." class="btn btn-primary">Want To Know More</a>
-  </div>
-</div>
-<div class="card" style="width: 18rem;">
-  <img src="rudbeckia.jpg" class="card-img-top" alt="Rudbeckia">
-  <div class="card-body">
-    <h5 class="card-title">Rudbeckia</h5>
-    <p class="card-text">Dependable and easy-care black-eyed Susans (Rudbeckia hirta) have become a garden staple. Daisy-like rays of bright yellow petals and dark center disks rise over broad ovate green leaves with a rough texture.</p>
-    <a href="https://www.thespruce.com/choosing-and-growing-black-eyed-susan-1402860#:~:text=How%20to%20Grow%20and%20Care%20for%20Black-Eyed%20Susan,1-2%20ft.%20wide%20%207%20more%20rows%20" class="btn btn-primary">Want To Know More</a>
+<div class="container">
+  <div class="row">
+    <div class="col-md">
+      <div class="card" style="width: 18rem;">
+        <img src="yarrow.jpg" width="300px" height="300px" class="card-img-top" alt="Yarrow">
+        <div class="card-body">
+          <h5 class="card-title">Yarrow</h5>
+          <p class="card-text">Yarrow (Achillea millefolium) is a native North American plant that’s popular with pollinators and practically care-free, making it perfect for borders, ground covers, and open meadows. Here’s how to grow yarrow in your garden!</p>
+          <a href="https://www.thespruce.com/taxonomy-of-yarrow-plants-2132606" class="btn btn-primary">Want To Know More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md">
+      <div class="card" style="width: 18rem;">
+        <img src="Agave.jpg" width="300px" height="300px" class="card-img-top" alt="Agave">
+          <div class="card-body">
+            <h5 class="card-title">Agave</h5>
+            <p class="card-text">Agave is a long-leaved succulent plant that naturally forms a rosette shape and produces a flower spire of attractive cup shaped blooms. The plant is drought tolerant and perennial, making it ideal for the mature arid garden</p>
+            <a href="https://www.gardeningknowhow.com/ornamental/cacti-succulents/agave/growing-agave.htm#:~:text=Agave%20is%20a%20long-leaved%20succulent%20plant%20that%20naturally,making%20it%20ideal%20for%20the%20mature%20arid%20garden." class="btn btn-primary">Want To Know More</a>
+          </div>
+      </div>
+    </div>
+    <div class="col-md">
+      <div class="card" style="width: 18rem;">
+        <img src="rudbeckia.jpg" width="300px" height="300px" class="card-img-top" alt="Rudbeckia">
+        <div class="card-body">
+          <h5 class="card-title">Rudbeckia</h5>
+          <p class="card-text">Dependable and easy-care black-eyed Susans (Rudbeckia hirta) have become a garden staple. Daisy-like rays of bright yellow petals and dark center disks rise over broad ovate green leaves with a rough texture.</p>
+          <a href="https://www.thespruce.com/choosing-and-growing-black-eyed-susan-1402860#:~:text=How%20to%20Grow%20and%20Care%20for%20Black-Eyed%20Susan,1-2%20ft.%20wide%20%207%20more%20rows%20" class="btn btn-primary">Want To Know More</a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 </body>
