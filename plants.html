@@ -104,7 +104,7 @@ tr:nth-child(odd){
 }
 .navbar-brand{
   background-color: blue;
-  height:87px;
+  height:200px;
 }
 
 .nav-link a {
@@ -124,6 +124,9 @@ tr:nth-child(odd){
 .nav-link  a:hover:not(.active) {
   background-color: #555;
   color: pink;
+}
+.form-label{
+  color: rgb(247, 0, 255);
 }
   </style>
   <meta charset="utf-8">
@@ -273,18 +276,43 @@ tr:nth-child(odd){
 <form>
   <div class="form-group">
     <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    <input type="email" style="width: fit-content;background-color: paleturquoise;" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" style="color: #4CAF50;" class="form-text">We'll never share your email with anyone else.</div>
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1" class="form-label">Enter your plant</label>
-    <input type="text" class="form-control" id="exampleInputPassword1">
+    <input type="text" style="width: fit-content;background-color: paleturquoise;" class="form-control" id="exampleInputPassword1">
   </div>
   <div class="form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+    <label class="form-check-label" style="color: #4CAF50;" for="exampleCheck1">Sign up for newsletter?</label>
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+<br><br>
+<div class="card" style="width: 18rem;">
+  <img src="yarrow.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Yarrow</h5>
+    <p class="card-text">Yarrow (Achillea millefolium) is a native North American plant that’s popular with pollinators and practically care-free, making it perfect for borders, ground covers, and open meadows. Here’s how to grow yarrow in your garden!</p>
+    <a href="https://www.thespruce.com/taxonomy-of-yarrow-plants-2132606" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="Agave.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Agave</h5>
+    <p class="card-text">Agave is a long-leaved succulent plant that naturally forms a rosette shape and produces a flower spire of attractive cup shaped blooms. The plant is drought tolerant and perennial, making it ideal for the mature arid garden</p>
+    <a href="https://www.gardeningknowhow.com/ornamental/cacti-succulents/agave/growing-agave.htm#:~:text=Agave%20is%20a%20long-leaved%20succulent%20plant%20that%20naturally,making%20it%20ideal%20for%20the%20mature%20arid%20garden." class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="rudbeckia.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Rudbeckia</h5>
+    <p class="card-text">Dependable and easy-care black-eyed Susans (Rudbeckia hirta) have become a garden staple. Daisy-like rays of bright yellow petals and dark center disks rise over broad ovate green leaves with a rough texture.</p>
+    <a href="https://www.thespruce.com/choosing-and-growing-black-eyed-susan-1402860#:~:text=How%20to%20Grow%20and%20Care%20for%20Black-Eyed%20Susan,1-2%20ft.%20wide%20%207%20more%20rows%20" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
 </body>
 </html>
